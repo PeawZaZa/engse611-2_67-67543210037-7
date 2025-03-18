@@ -57,21 +57,17 @@
     gap:10px;
 }
 
-.dot {
-    width: 12px;
-    height: 12px;
-    background-color: #bbb;
-    border-radius: 50%;
-    margin: 0 5px;
-    cursor: pointer;
-}
-
 .img-selector{
     width: 100px;
     cursor: pointer;
     border-radius: 20%;
 }
 
-.dot.active {
-    background-color: #333;
+.img-selector:hover{
+    transform: scale(1.08);
+    transition: ease-out 0.3s;
+}
+
+.img-selector.active {
+    border: 2px solid black;
 }
