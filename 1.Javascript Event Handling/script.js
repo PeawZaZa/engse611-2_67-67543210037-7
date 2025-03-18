@@ -1,6 +1,6 @@
 let currentSlide = 0;
 const slides = document.querySelectorAll('.slide');
-const dots = document.querySelectorAll('.dot');
+const dots = document.querySelectorAll('.img-selector');
 let slideInterval;
 
 function showSlide(index) {
