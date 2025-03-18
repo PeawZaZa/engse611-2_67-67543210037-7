@@ -54,6 +54,7 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    gap:10px;
 }
 
 .dot {
@@ -66,7 +67,7 @@
 }
 
 .img-selector{
-    width: 50px;
+    width: 100px;
     cursor: pointer;
     border-radius: 20%;
 }
